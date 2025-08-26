@@ -1,7 +1,11 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 
 function Counter(props){
     const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        document.title = `총 ${count}번 클릭햇습니다.`;
+    });
 
     return(
         <div>
