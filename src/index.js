@@ -14,7 +14,7 @@ import TextInputWithFocusButton from './ch07/TextInputWithFocusButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <TextInputWithFocusButton />
+  <useCo />
 );
 
 
