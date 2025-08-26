@@ -1,3 +1,5 @@
+import React from "react";
+
 const styles ={
 
     wrapper: {
@@ -19,6 +21,18 @@ class Notification extends React.Component {
         super(props);
 
         this.state ={};
+    }
+
+    componentDidMount() {
+        console.log(`${this.props.id} componentDidMount() callde.`)
+    }
+
+    componentDidUpdate() {
+        console.log(`${this.props.id} componentDidUpdate() callde.`)
+    }
+
+    componentWillUnmount() {
+        console.log(`${this.props.id} componentWillUnmount() callde.`)
     }
 
     render() {
