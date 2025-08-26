@@ -7,12 +7,13 @@ import Clock from "./ch04/Clock"
 import Comment from './ch05/Comment';
 import CommentList from './ch05/CommemtList';
 import NotificationList from './ch06/NotificationList';
+import Counter from './ch07/Counter';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <NotificationList />
+  <Counter />
 );
 
 
