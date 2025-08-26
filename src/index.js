@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import Button from "./ch04/Button";
+import Clock from "./ch04/Clock"
+import Comment from './ch05/Comment';
+import CommentList from './ch05/CommemtList';
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <CommentList />
+);
+
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
